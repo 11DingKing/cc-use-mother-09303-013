@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "国际论坛项目撮合",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "论坛秘书处",
+    "职业院校",
+    "合作企业"
+  ],
+  "states": [
+    "登记",
+    "匹配",
+    "确认",
+    "洽谈",
+    "转项目"
+  ],
+  "invariants": [
+    "双向匹配",
+    "资源冲突",
+    "联系人授权",
+    "转换谱系"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-013-A",
+      "actor": "论坛秘书处",
+      "state": "登记"
+    },
+    {
+      "case_id": "09303-013-B",
+      "actor": "合作企业",
+      "state": "匹配"
+    }
+  ],
+  "tags": [
+    "forum-matchmaking",
+    "capability-demand"
+  ]
+}
